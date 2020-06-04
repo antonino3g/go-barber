@@ -1,3 +1,13 @@
+# Tmp
+tmp/*
+!tmp/.gitkeep
+
+# Default
+.idea/
+.vscode/
+build/
+temp/
+
 # Logs
 logs
 *.log
