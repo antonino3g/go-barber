@@ -1,8 +1,9 @@
-# go-barber
-A Barber Schedule App.
+## :books: go-barber
+
+Building a API using Node.js.
 
 
-.::.Building.::. :bulb:
+This a repository back-end. Will be use with join with front-end and mobile. GoBarber 
 
 -----
 **by Antonino Praxedes :wave: [Get in touch!](https://www.linkedin.com/in/antoninopraxedes/)**
