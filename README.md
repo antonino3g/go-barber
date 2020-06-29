@@ -1,6 +1,6 @@
 ## :books: go-barber
 
-Building a API using Node.js.
+Build a API using Node.js.
 
 
 This a repository back-end. Will be use with join with front-end and mobile. GoBarber 
