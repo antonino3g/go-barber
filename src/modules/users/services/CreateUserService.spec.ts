@@ -21,7 +21,7 @@ describe('CreateUser', () => {
     const fakeUsersRepository = new FakeUsersRepository();
     const createUser = new CreateUserService(fakeUsersRepository);
 
-    const user = await createUser.execute({
+    await createUser.execute({
       name: 'John Doe',
       email: 'johndoe@example.com',
       password: '123456',
