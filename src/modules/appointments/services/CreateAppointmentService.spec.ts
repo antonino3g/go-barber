@@ -1,6 +1,5 @@
 import FakeAppointmentsRepository from '../repositories/fakes/FakeAppointmentsRepository';
 import CreateAppointmentService from './CreateAppointmentService';
-import Appointment from '../infra/typeorm/entities/Appointment';
 
 describe('CreateAppointment', () => {
   it('shold be able to create a new appointment', async () => {
