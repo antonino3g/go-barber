@@ -5,7 +5,7 @@ import FakeUsersRepository from '../repositories/fakes/FakeUsersRepository';
 import CreateUserService from './CreateUserService';
 
 describe('CreateUser', () => {
-  it('shold be able to create a new user', async () => {
+  it('should be able to create a new user', async () => {
     const fakeUsersRepository = new FakeUsersRepository();
     const fakeHashProvider = new FakeHashProvider();
 
@@ -23,7 +23,7 @@ describe('CreateUser', () => {
     expect(user).toHaveProperty('id');
   });
 
-  it('shold be able to create a new user with same email from another', async () => {
+  it('should be able to create a new user with same email from another', async () => {
     const fakeUsersRepository = new FakeUsersRepository();
     const fakeHashProvider = new FakeHashProvider();
 
