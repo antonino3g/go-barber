@@ -112,3 +112,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# ORM
+ormconfig.json
